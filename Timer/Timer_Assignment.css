@@ -1,0 +1,116 @@
+body{
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#Sub_div{
+    height: 600px;
+    width: 600px;
+    /* border: 4px solid black; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 32px;
+    background-color: rgb(57, 57, 57);
+    box-shadow: inset 8px 8px 24px rgb(110, 110, 110);
+    box-shadow: 8px 8px 16px rgb(96, 96, 96);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+#Display{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+#Hour,#Min,#Sec,#AM_PM{
+    display: flex;
+    height: 150px;
+    width: 100px;
+    border:2px inset black;
+    border-radius: 16px;
+    background-color: rgb(92, 244, 92);
+    box-shadow: inset 8px 8px 24px rgb(5, 5, 5);
+    font-size:40px;
+    font-weight: bolder;
+    text-align: center;
+    justify-content: center;
+}
+
+#Hour h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+#Day,#Date{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#Day_display,#Day_display{
+    height: 60px;
+    width: 500px;
+    border: 2px inset black;
+    background-color: rgb(92, 244, 92);
+    box-shadow: inset 8px 8px 24px rgb(5, 5, 5);
+    border-radius: 100px;
+}
+
+#current_day,#current_Date{
+    text-align: center;
+    font-size: 28px;
+}
+
+#Time{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+}
+
+#Time_1{
+    /* border: none; */
+    height: 30px;
+    width: 300px;
+    /* border-radius: 8px; */
+    background-color: rgb(92, 244, 92);
+    box-shadow: inset 2px 4px 24px rgb(5, 5, 5);
+    font-size: medium;
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    text-align: center;
+}
+
+#Day_display:hover{
+    scale: 1.1;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+#Date{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#Date_display,#Month,#year{
+    display: flex;
+    height: 150px;
+    width: 100px;
+    border:2px inset black;
+    border-radius: 16px;
+    background-color: rgb(92, 244, 92);
+    box-shadow: inset 8px 8px 24px rgb(5, 5, 5);
+    font-size:40px;
+    font-weight: bolder;
+    text-align: center;
+    justify-content: center;
+}
